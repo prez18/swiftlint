@@ -7,7 +7,7 @@
 # 無効にするルール
 disabled_rules:
 - block_based_kvo # Swift 3.2以降を使用する場合は、キーパスを持つ新しいブロックベースのKVO APIを優先します。
-- class_delegate_protocol # 委譲プロトコルはクラスのみであるべきであり、弱く参照できるようにすべきである。
+- class_delegate_protocol # 委譲プロトコルはクラスのみであるべきであり、弱く参照できるようにすべきです。
 - closing_brace # 閉じ括弧で閉じる中括弧は、途中に空白があってはいけません。
 - closure_parameter_position # クロージャーのパラメータは、オープニングブレースと同じライン上にある必要があります。
 - colon # 型を指定する場合は識別子の隣に、辞書リテラルの場合はキーの隣にコロンを使用します。
@@ -17,10 +17,10 @@ disabled_rules:
 - computed_accessors_order # 計算型プロパティと添え字のゲッターとセッターは、一貫した順序である必要があります。
 - control_statement # if, for, guard, switch, while, および catch 文は、不必要に条件式や引数を括弧で囲むべきではありません。
 - custom_rules # 正規表現文字列を指定してカスタムルールを作成します。オプションで、マッチする構文の種類、深刻度のレベル、表示するメッセージを指定できます。
-- cyclomatic_complexity # 機能体の複雑さは限定されるべきである。
+- cyclomatic_complexity # 機能体の複雑さは限定されるべきです。
 - deployment_target # 可用性チェックや属性は、デプロイメント ターゲットが満たす古いバージョンを使用すべきではありません。
 - discarded_notification_center_observer # ブロックを使用して通知を登録する場合、返された不透明なオブザーバは後で削除できるように保存しておく必要があります。
-- discouraged_direct_init # 有害な可能性のある型の直接初期化を不推奨。
+- discouraged_direct_init # 有害な可能性のある型の直接初期化を不推奨とします。
 - duplicate_enum_cases # Enumには、同じ名前の複数のケースを含めることはできません。
 - duplicate_imports # importはユニークなものでなければなりません。
 - dynamic_inline # `dynamic`と`@inline(__always)`の併用は避けてください。
@@ -32,7 +32,7 @@ disabled_rules:
 - force_cast # フォースキャストは避けるべきです。
 - force_try # 強制的なトライは避けるべきです。
 - function_body_length # 関数体はあまり多くの行にまたがってはいけません。
-- function_parameter_count # 関数パラメータの数が少ないこと。
+- function_parameter_count # 関数パラメータの数は少なくあるべきです。
 - generic_type_name # 一般的なタイプ名は、英数字のみを含み、大文字で始まり、長さは1～20文字でなければなりません。
 - identifier_name # 識別子名は、英数字のみを含み、小文字で始まるか、大文字のみを含むべきです。上記の例外として、変数名が静的で不変であると宣言されている場合には、大文字で始まることがあります。変数名は長すぎても短すぎてもいけません。
 - implicit_getter # 読み取り専用の計算型プロパティと添え字は、get キーワードの使用を避ける必要があります。
@@ -80,7 +80,7 @@ disabled_rules:
 - trailing_whitespace # 行の末尾に空白を入れてはいけません。
 - type_body_length # タイプボディはあまり多くの行にまたがってはいけません。
 - type_name # タイプ名は英数字のみを含み、大文字で始まり、長さは3文字から40文字の間でなければなりません。
-- unneeded_break_in_switch # 不要なbreak文の使用を避ける。
+- unneeded_break_in_switch # 不要なbreak文の使用を避けます。
 - unused_capture_list # キャプチャリスト内の未使用の参照は削除されるべきです。
 - unused_closure_parameter # クロージャ内の未使用のパラメータは _ に置き換えてください。
 - unused_control_flow_label # 未使用の制御フローラベルは削除する必要があります。
@@ -91,7 +91,7 @@ disabled_rules:
 - vertical_parameter_alignment # 関数のパラメータが宣言内の複数行にある場合は、垂直方向に整列させる必要があります。
 - vertical_whitespace # 垂直方向の空白を空行1行に制限します。
 - void_return # ` () -> `よりも優先的に`Void -> `を優先します。
-- weak_delegate # delegateは、循環参照を避けるために弱参照にするである。
+- weak_delegate # delegateは、循環参照を避けるために弱参照にします。
 - xctfail_message # XCTFailコールにはアサーションの説明を含める必要があります。
 
 # opt-inルールの中で無効にするルール
