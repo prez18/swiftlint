@@ -1,0 +1,2 @@
+# swiftlint
+swiftlintを既存プロジェクトに適応する際に利用する設定
